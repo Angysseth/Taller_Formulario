@@ -1,0 +1,53 @@
+body {
+    background-color: #661946;
+    font-family: helvetica;
+    text-align: center;
+    margin-top: 45px;
+
+}
+
+.formulario {
+    background-color: rgb(194, 87, 149);
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 420px;
+    box-shadow: 2px 5px 5px rgb(41, 39, 39);
+    padding: 15px;
+    color: rgb(58, 2, 39);
+}
+
+.contenido{
+    padding: 50px;
+    overflow: hidden;
+}
+
+.contenido label, .contenido input, .contenido textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.contenido label{
+    font-weight: 700;
+}
+
+.datos{
+    text-align: left;
+    font-weight: 700;
+
+}
+
+textarea{
+    resize: none;
+}
+
+.contenido input, .contenido textarea{
+    background-color: rgb(219, 133, 183);
+}
+
+button{
+    background-color: rgb(58, 2, 39);
+    color: white;
+    width: 120px;
+    cursor: pointer;
+}
